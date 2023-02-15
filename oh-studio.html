@@ -112,14 +112,18 @@
       .shop-button{
         color: white;
         background-color: black;
-        margin-left: 20px;
-        margin-left: 600px;
         margin-top: 10px;
-        
+        margin: 0;
       }
 
       .shop-button:active{
         background-color: rgb(188, 188, 192);
+    }
+
+    .shop-button-flex{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
     }
 
     
@@ -144,6 +148,11 @@
       align-items: center;
       margin-top: 40px;
     }
+
+  
+
+
+ 
 
   </style>
   </head>
@@ -228,7 +237,7 @@
   Get in touch.
 </div>
 
-<div>
+<div class="shop-button-flex">
   <button class="shop-button">Get Started</button>
 </div>
 
