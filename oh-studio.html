@@ -69,6 +69,27 @@
         border-radius: 200px;
        }
 
+       @media (max-width: 750px){
+        img{
+        width: 150px ;
+        height: 200px;
+       }
+      }
+
+      @media (min-width: 751px) and (max-width: 999px) {
+        img{
+        width: 300px ;
+        height: 400px;
+       }
+      }
+
+      @media (min-width: 1000px) {
+        img{
+        width: 450px ;
+        height: 550px;
+       }
+      }
+
         img:hover{
           opacity: 0.5;
         }
@@ -79,15 +100,16 @@
           align-items: center;
           margin-top: 50px;
           margin-bottom: 50px;
+        }
       
+        .all-flex{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
         }
 
-
-
-      .border-margin{
-        margin-top: 50px;
-    }
-
+    
 
       .description2{
         font-size: 40px;
@@ -127,17 +149,17 @@
         background-color: rgb(188, 188, 192);
     }
 
-    .shop-button-flex{
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
+      .shop-button-flex{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
 
     
-    .left{
-        font-size: 10px;
-      
-      }
+      .left{
+          font-size: 10px;
+        
+        }
 
 
       .social-button{
@@ -147,14 +169,14 @@
       }
       .social-button:active{
         background-color: rgb(230, 230, 230);
-    }
+      }
 
-    .footer{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 40px;
-    }
+      .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+      }
 
   
 
@@ -192,19 +214,18 @@
 </div>
  </div>
 
-<div class="border-margin">
- <div class="row-one">
+ <div class="all-flex">
+  <div class="row-one">
   <div class="pics">
   <img src="https://i.pinimg.com/474x/ff/b7/83/ffb783684302aad19d32526f57deec30.jpg">
   <img src="https://i.pinimg.com/474x/55/48/22/554822499298cf674409ef1874880dbb.jpg">
   <img src="https://i.pinimg.com/474x/19/bd/db/19bddb8dc9e6d0ae8d7aeb8e09955882.jpg">
 </div>
 </div>
-</div>
 
 
 
-<div class="border-margin">
+
  <div class="row-one">
   <div class="pics">
    <img src="https://i.pinimg.com/474x/5d/48/f8/5d48f8934a33039178e32cb362a65fa3.jpg">
@@ -212,10 +233,7 @@
    <img src="https://i.pinimg.com/474x/96/c7/1c/96c71c2eeb5abc83aaf97b9c0c945113.jpg">
  </div>
  </div>
-</div>
 
-
-<div class="border-margin">
  <div class="row-one">
   <div class="pics">
    <img src="https://i.pinimg.com/474x/0f/b7/05/0fb7055500c68748103dd608be8b11bc.jpg">
@@ -223,10 +241,8 @@
    <img src="https://i.pinimg.com/474x/47/89/58/4789586d0fac7f6dbd28485f990ea77f.jpg">
  </div>
  </div>
- </div>
 
 
-<div class="border-margin">
  <div class="row-one">
   <div class="pics">
    <img src="https://i.pinimg.com/474x/e3/09/b0/e309b02a9fef3cb300349b646841e463.jpg">
